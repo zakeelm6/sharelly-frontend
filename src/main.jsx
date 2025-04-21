@@ -1,8 +1,7 @@
-// src/main.jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';  // Composant principal de l'application
-import './index.css';  // Importation des styles globaux
+import App from './App';
+import './index.css'; // si ce fichier existe
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
